@@ -330,6 +330,7 @@
 
 <style lang="scss">
     .book-manager-wrap {
+        @import "../../styles/variable";
 
         .ivu-table-wrapper {
             border: 0;
@@ -337,7 +338,7 @@
             height: 100%;
         }
         .ivu-spin-fix {
-            background-color: rgba(0, 0, 0, .5);
+            background-color: rgba(255, 255, 255, .5);
             border: 0;
         }
         .ivu-table{
@@ -346,12 +347,11 @@
 
             th, td {
                 background-color: transparent;
-                color: #fff;
                 border: 0;
             }
 
             thead {
-                background-color: rgba(0, 0, 0, .1);
+                background-color: $bg;
             }
             &:before {
                 background-color: transparent;
@@ -362,20 +362,18 @@
         }
         .table-row-first {
             background-color: transparent;
-            color: #fff;
             transition: background-color .3s;
 
             &:hover {
-                background-color: rgba(0, 0, 0, .2);
+                background-color: rgba(45, 140, 240, 0.11);
             }
         }
         .table-row-second {
-            background-color: rgba(0, 0, 0, .1);
-            color: #fff;
+            background-color: $bg;
             transition: background-color .2s;
 
             &:hover {
-                background-color: rgba(0, 0, 0, .3);
+                background-color: rgba(45, 140, 240, 0.11);
             }
         }
         .button-box {
@@ -387,17 +385,17 @@
         .button-item {
             font-size: 0.75rem;
             padding: 0.1rem 0.5rem;
-            color: #fff;
+            color: #20a0ff;
             margin: 0.75rem;
-            border: 1px solid #fff;
+            border: 1px solid #20a0ff;
             border-radius: 2px;
             cursor: pointer;
             transition: all .1s;
 
             &:hover {
-                background-color: #fff;
-                border-color: #000;
-                color: #000;
+                background-color: #20a0ff;
+                border-color: #20a0ff;
+                color: #fff;
             }
             &:first-child {
                 margin-left: 0;
@@ -427,18 +425,18 @@
                 flex: none;
                 user-select: none;
                 display: inline-block;
-                color: #fff;
+                color: #20a0ff;
                 margin-right: 1.5rem;
-                border: 1px solid #fff;
+                border: 1px solid #20a0ff;
                 border-radius: 3px;
                 padding: 0.5rem 1rem;
                 cursor: pointer;
                 transition: .2s;
 
                 &:hover {
-                    background-color: #fff;
-                    color: #000;
-                    border-color: #fff;
+                    background-color: #20a0ff;
+                    color: #fff;
+                    border-color: #20a0ff;
                 }
             }
         }

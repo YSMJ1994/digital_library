@@ -198,7 +198,6 @@
             width: 90%;
             text-align: center;
             font-size: 1.5rem;
-            color: #fff;
         }
         .main {
             height: calc(100% - 4rem);
@@ -302,18 +301,18 @@
         .managerButton {
             user-select: none;
             display: inline-block;
-            color: #fff;
+            color: #20a0ff;
             margin-right: 1.5rem;
-            border: 1px solid #fff;
+            border: 1px solid #20a0ff;
             border-radius: 3px;
             padding: 0.5rem 1rem;
             cursor: pointer;
             transition: .2s;
 
             &:hover {
-                background-color: #fff;
-                color: #000;
-                border-color: #fff;
+                background-color: #20a0ff;
+                color: #fff;
+                border-color: #20a0ff;
             }
         }
     }

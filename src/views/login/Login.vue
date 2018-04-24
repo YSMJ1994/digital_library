@@ -2,13 +2,13 @@
     <div class="login-wrap">
         <div class="login-box">
             <div style="width: 200px">
-                <i-input v-model="account" class="iview-input">
+                <i-input v-model="account" size="large" placeholder="请输入用户名" class="iview-input">
                     <span slot="prepend">
                         <Icon type="person" slot="prepend"></Icon>
                     </span>
                 </i-input>
                 <br/>
-                <i-input v-model="password" type="password" class="iview-input" @on-enter="login">
+                <i-input v-model="password" size="large" placeholder="请输入密码" type="password" class="iview-input" @on-enter="login">
                 <span slot="prepend">
                         <Icon type="locked" slo="prepend"></Icon>
                     </span>
@@ -75,23 +75,6 @@
         }
     }
 </script>
-
-<style lang="scss">
-    .login-wrap {
-
-        .iview-input {
-
-            .ivu-input-group-prepend {
-                background-color: transparent;
-                color: #fff;
-            }
-            input {
-                background-color: transparent;
-                color: #fff;
-            }
-        }
-    }
-</style>
 
 <style scoped lang="scss">
     .login-wrap {
@@ -161,7 +144,6 @@
             height: 30px;
             line-height: 30px;
             /* text-align: center; */
-            color: #fff;
             font-size: 14px;
             padding: 0 5px;
         }
@@ -176,7 +158,6 @@
             font-size: 12px;
             float: right;
             padding-top: 20px;
-            color: #fff;
         }
         .toregist a {
             color: #066197;

@@ -3,7 +3,7 @@
         <div class="register-box">
             <div style="width: 200px;" class="edit-box">
                 <div class="edit-row">
-                    <i-input v-model="username" placeholder="昵称" class="iview-input">
+                    <i-input v-model="username" size="large" placeholder="昵称" class="iview-input">
                         <span slot="prepend">
                             <Icon type="edit" slot="prepend"></Icon>
                         </span>
@@ -11,7 +11,7 @@
                 </div>
                 <br/>
                 <div class="edit-row">
-                    <i-input v-model="account" placeholder="用户名" class="iview-input" @on-change="checkAccount">
+                    <i-input v-model="account" size="large" placeholder="用户名" class="iview-input" @on-change="checkAccount">
                         <span slot="prepend">
                             <Icon type="edit" slot="prepend"></Icon>
                         </span>
@@ -23,7 +23,7 @@
                 </div>
                 <br/>
                 <div class="edit-row">
-                    <i-input v-model="password" placeholder="密码" class="iview-input">
+                    <i-input v-model="password" size="large" placeholder="密码" class="iview-input">
                         <span slot="prepend">
                             <Icon type="locked" slot="prepend"></Icon>
                         </span>
@@ -31,7 +31,7 @@
                 </div>
                 <br/>
                 <div class="edit-row">
-                    <i-input v-model="password2" placeholder="确认密码" class="iview-input">
+                    <i-input v-model="password2" size="large" placeholder="确认密码" class="iview-input">
                         <span slot="prepend">
                             <Icon type="locked" slot="prepend"></Icon>
                         </span>
@@ -169,24 +169,6 @@
     }
 </script>
 
-<style lang="scss">
-    .register-wrap {
-
-        .iview-input {
-            width: 90%;
-
-            .ivu-input-group-prepend, .ivu-input-group-append {
-                background-color: transparent;
-                color: #fff;
-            }
-            input {
-                background-color: transparent;
-                color: #fff;
-            }
-        }
-    }
-</style>
-
 <style scoped lang="scss">
     .register-wrap {
         height: 100%;
@@ -283,13 +265,12 @@
             border: none;
             outline: none;
             background: none;
-            border-bottom: 1px solid #fff;
+            border-bottom: 1px solid #000;
             margin-top: 30px;
             width: 200px;
             height: 30px;
             line-height: 30px;
             /* text-align: center; */
-            color: #fff;
             font-size: 14px;
             padding: 0 5px;
         }
@@ -304,7 +285,6 @@
             font-size: 12px;
             float: right;
             padding-top: 20px;
-            color: #fff;
         }
         .to-register a {
             color: #066197;

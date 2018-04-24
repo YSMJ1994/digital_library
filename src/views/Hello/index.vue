@@ -183,7 +183,7 @@
                         .book-item-image-container {
                             width: 100px;
                             height: 120px;
-                            border: 1px solid #fff;
+                            box-shadow: 0 0 5px 2px rgba(45, 140, 240, 0.12);
                             float: left;
                             margin-right: 10px;
 

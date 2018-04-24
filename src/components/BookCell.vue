@@ -50,7 +50,7 @@
         .bookImgBox {
             width: 6.3rem;
             height: 7rem;
-            box-shadow: 0 0 3px 3px #fff;
+            box-shadow: 0 0 5px 2px rgba(45, 140, 240, 0.12);
             border: 0;
             margin: 0 auto;
         }

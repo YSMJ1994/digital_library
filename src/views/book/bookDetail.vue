@@ -165,19 +165,19 @@
             flex: none;
             user-select: none;
             display: inline-block;
-            color: #fff;
+            color: #20a0ff;
             font-size: 0.75rem;
             margin-right: 1.5rem;
-            border: 1px solid #fff;
+            border: 1px solid #20a0ff;
             border-radius: 3px;
             padding: 0.5rem 1rem;
             cursor: pointer;
             transition: .2s;
 
             &:hover {
-                background-color: #fff;
-                color: #000;
-                border-color: #fff;
+                background-color: #20a0ff;
+                color: #fff;
+                border-color: #20a0ff;
             }
         }
         .book-detail {
@@ -192,7 +192,7 @@
                 width: 14rem;
                 height: 16rem;
                 margin: 2rem;
-                border: 1px solid #fff;
+                box-shadow: 0 0 5px 2px rgba(45, 140, 240, 0.12);
 
                 img {
                     width: 100%;
@@ -211,7 +211,6 @@
 
                 .label{
                     margin-right: 0.5rem;
-                    color: #fff!important;
                 }
 
                 .book-name{
@@ -220,7 +219,6 @@
 
                 .book-author{
                     margin-top: 1rem;
-                    color: #eee;
                     margin-left: 2rem;
                 }
 
@@ -241,6 +239,10 @@
                     a {
                         color: #fff;
                     }
+
+                    &:hover{
+                        background-color: rgba(243,112,32,0.5);
+                    }
                 }
 
                 .view-button{
@@ -255,15 +257,11 @@
                     color: #f36f20;
                     margin-top: 2rem;
                     margin-left: 1rem;
-                }
 
-                .download-button:hover{
-                    background-color: rgba(243,112,32,0.5);
-                    color: #f36f20;
-                }
-
-                .view-button:hover{
-                    background-color: rgba(255,255,255,0.1);
+                    &:hover{
+                        background-color: rgba(243,112,32,0.5);
+                        color: #fff;
+                    }
                 }
 
                 .download-button-container{
@@ -272,11 +270,6 @@
                     display: flex;
                     align-items: center;
                     margin-left: 1rem;
-
-                    .download-count{
-                        color: #ebebeb;
-
-                    }
 
                     .byte-size{
                         margin-right: 1rem;
@@ -292,7 +285,6 @@
 
             .title{
                 margin: 0.5rem 0 0.5rem 1rem;
-                color: #e2e2e2;
                 font-size: 14px;
             }
 
@@ -310,14 +302,14 @@
                     border-radius: 0.5rem;
 
                     &:hover {
-                        background-color: rgba(0, 0, 0, .2);
+                        background-color: rgba(255, 255, 255, 0.51);
                     }
 
                     .book-image{
                         height: 10rem;
                         width: 8rem;
                         margin: 1rem auto;
-                        border: 1px solid #fff;
+                        box-shadow: 0 0 5px 2px rgba(45, 140, 240, 0.12);
 
                         img {
                             width: 100%;

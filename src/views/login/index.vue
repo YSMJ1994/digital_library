@@ -1,6 +1,6 @@
 <template>
     <div class="index-wrap">
-        <canvas id="canvas" class="canvas"></canvas>
+        <!--<canvas id="canvas" class="canvas"></canvas>-->
         <div class="logo">
             <span>数字图书馆</span>
         </div>
@@ -24,7 +24,7 @@
             return {}
         },
         mounted() {
-            let canvas = document.getElementById('canvas'),
+            /*let canvas = document.getElementById('canvas'),
                 ctx = canvas.getContext('2d'),
                 width = window.innerWidth,
                 height = window.innerHeight,
@@ -65,7 +65,7 @@
                 requestAnimationFrame(frame)
             }
             meteorGenerator()
-            frame()
+            frame()*/
         },
         methods: {}
     }
@@ -91,7 +91,7 @@
             }
 
             span {
-                color: #066197;
+                color: #000;
                 font-size: 2.25rem;
                 font-weight: bold;
                 margin-bottom: 1rem;

@@ -222,7 +222,6 @@
     .home-wrap {
         $sideWidth: 12.5rem;
         $headerHeight: 5rem;
-        background-color: #ffffff;
         width: 100%;
         height: 100%;
         padding: 0;
@@ -231,7 +230,6 @@
         overflow: hidden;
         align-items: center;
         flex-direction: column;
-        background-color: rgba(7,17,27,0.95);
 
         #canvas {
             position: absolute;
@@ -247,7 +245,6 @@
             z-index: 2;
         }
         .header-title {
-            color: #fff;
             line-height: $headerHeight;
 
             .title {
@@ -261,7 +258,7 @@
         .content {
             width: 97%;
             height: calc(98.5% - #{$headerHeight});
-            background-color: rgba(7, 17, 27, 0.5);
+            background-color: rgba(255, 255, 255, 0.2);
             display: flex;
             /*padding: 0 2rem;*/
             justify-content: center;
@@ -295,18 +292,15 @@
         }
         .login-tool {
             line-height: $headerHeight;
-            color: #fff;
             display: flex;
             font-size: 1rem;
 
             .tool-icon {
-                color: #fff;
                 transition: color .1s;
                 margin-right: 0.3rem;
             }
             .tool-text {
                 transition: color .3s;
-                color: #fff;
             }
             .tool-button {
                 padding: 0 1rem;

@@ -54,17 +54,16 @@
         outline: none;
         font-size: 20px;
         border-radius: 20px 0 0 20px;
-        background: rgba(255, 255, 255, 0.1);
+        background: rgba(255, 255, 255, 0.3);
         transition: all .8s;
-        color: #fff;
 
         &::-webkit-input-placeholder {
-            color: rgba(255, 255, 255, 0.2);
+            color: rgb(179, 179, 179);
         }
     }
 
     .search-bar .input-wrap:focus {
-        background: rgba(255, 255, 255, 0.3);
+        background: #fff;
     }
 
     .search-bar .input-button {
@@ -74,17 +73,16 @@
         line-height: 38px;
         text-align: center;
         font-size: 14px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.3);
         box-sizing: unset;
         transition: all .2s;
 
         &:hover {
-            background-color: rgba(0, 0, 0, .5);
-            color: #fff;
+            background-color: #fff;
         }
     }
 
     .search-bar .input-wrap:focus .input-botton {
-        border-color: rgba(255, 255, 255, 0.8);
+        border-color: rgb(32, 160, 255);
     }
 </style>

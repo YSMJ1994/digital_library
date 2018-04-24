@@ -90,6 +90,7 @@
 
 <style lang="scss">
     .book-list-wrap {
+        @import "../../styles/variable";
         width: 100%;
         height: 100%;
 
@@ -97,13 +98,11 @@
 
             .ivu-select-selection {
                 background-color: transparent;
-            }
-            .ivu-select-selected-value {
-                color: #fff;
+                border-color: #20a0ff;
             }
             .ivu-select-dropdown {
-                background-color: #141d27;
-                box-shadow: 0 1px 6px rgba(255,255,255,.2);
+                /*background-color: #141d27;*/
+                /*box-shadow: 0 1px 6px rgba(255,255,255,.2);*/
 
                 &::-webkit-scrollbar {
                     width: 5px;
@@ -120,16 +119,9 @@
                     background-color: rgba(7, 17, 27, 1);
                 }
             }
-            .ivu-select-item {
-                color: #fff;
-
-                &:hover {
-                    color: #000;
-                }
-            }
         }
         .ivu-spin-fix {
-            background-color: rgba(0, 0, 0, .5);
+            background-color: rgba(255, 255, 255, .5);
         }
     }
 </style>
@@ -157,18 +149,18 @@
                 flex: none;
                 user-select: none;
                 display: inline-block;
-                color: #fff;
+                color: #20a0ff;
                 margin-right: 1.5rem;
-                border: 1px solid #fff;
+                border: 1px solid #20a0ff;
                 border-radius: 3px;
                 padding: 0.5rem 1rem;
                 cursor: pointer;
                 transition: .2s;
 
                 &:hover {
-                    background-color: #fff;
-                    color: #000;
-                    border-color: #fff;
+                    background-color: #20a0ff;
+                    color: #fff;
+                    border-color: #20a0ff;
                 }
             }
         }

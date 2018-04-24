@@ -74,15 +74,15 @@
             line-height: 3rem;
             text-align: center;
             font-size: 1rem;
-            color: #fff;
             cursor: pointer;
+            color: #000;
 
             &:hover {
-                background-color: rgba(7, 17, 27, .2);
+                background-color: rgba(255, 255, 255, 0.2);
             }
         }
         .active-li {
-            background-color: rgba(7, 17, 27, 0.5) !important;
+            background-color: rgba(255, 255, 255, 0.2) !important;
         }
     }
 </style>

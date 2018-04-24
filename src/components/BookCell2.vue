@@ -47,11 +47,12 @@
 
 <style lang="scss" scoped>
     .channel-body {
+
         .book-item-container {
             overflow: hidden;
             margin-bottom: -1px;
             padding: 16px 0;
-            border-bottom: 1px dashed #e2e2e2;
+            /*border-bottom: 1px dashed rgba(32, 160, 255, 0.65);*/
             display: block;
             cursor: pointer;
 
@@ -66,7 +67,7 @@
             .book-item-image-container {
                 width: 120px;
                 height: 120px;
-                border: 1px solid #fff;
+                box-shadow: 0 0 5px 2px rgba(45, 140, 240, 0.12);
                 float: left;
                 margin-right: 10px;
 

@@ -116,7 +116,7 @@
     .book-wrap {
 
         .ivu-spin-fix {
-            background-color: rgba(0, 0, 0, .5);
+            background-color: rgba(255, 255, 255, 0.5);
         }
     }
 </style>
@@ -133,7 +133,7 @@
             /*background-image: url("../../assets/images/book/banner2.png");*/
             background-repeat: round;
             opacity: 0.85;
-            box-shadow: 0 0 2px 0 #fff;
+            box-shadow: 0 0 13px 6px rgba(45, 140, 240, 0.12);
             position: relative;
             overflow: auto;
 
@@ -145,16 +145,15 @@
                 display: none;
             }
             &::-webkit-scrollbar-track {
-                background-color: rgba(6, 8, 17, .5);
+                background-color: rgba(255, 255, 255, 0.5);
             }
             &::-webkit-scrollbar-thumb {
                 border-radius: 10px;
-                background-color: rgb(6, 8, 17);
+                background-color: rgb(214, 228, 243);
             }
         }
         .typeMsg {
             position: absolute;
-            color: #fff;
             font-size: 1rem;
             padding: 0.5rem 0.8rem;
         }
@@ -187,7 +186,7 @@
         .bookCover {
             width: 6.3rem;
             height: 7rem;
-            box-shadow: 0 0 3px 3px #fff;
+            box-shadow: 0 0 13px 6px rgba(45, 140, 240, 0.12);
             border: 0;
         }
         .bookMsg {
@@ -226,17 +225,17 @@
         .managerButton {
             user-select: none;
             display: inline-block;
-            color: #fff;
-            border: 1px solid #fff;
+            border: 1px solid #20a0ff;
             border-radius: 3px;
+            color: #20a0ff;
             padding: 0.5rem 1rem;
             cursor: pointer;
             transition: .2s;
 
             &:hover {
-                background-color: #fff;
-                color: #000;
-                border-color: #fff;
+                background-color: #20a0ff;
+                color: #fff;
+                border-color: #20a0ff;
             }
         }
     }
