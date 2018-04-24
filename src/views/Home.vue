@@ -277,7 +277,7 @@
             }
             &::-webkit-scrollbar-thumb {
                 border-radius: 5px;
-                background-color: rgba(7, 17, 27, 1);
+                background-color: rgba(45, 140, 240, 0.25);
             }
         }
         .slider {
