@@ -2,7 +2,7 @@
     <div class="login-wrap">
         <div class="login-box">
             <div style="width: 200px">
-                <i-input v-model="account" size="large" placeholder="请输入用户名" class="iview-input">
+                <i-input v-model.trim="account" size="large" placeholder="请输入用户名" class="iview-input">
                     <span slot="prepend">
                         <Icon type="person" slot="prepend"></Icon>
                     </span>

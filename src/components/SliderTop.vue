@@ -6,6 +6,14 @@
                     {{item.label}}
                 </li>
             </router-link>
+
+            <!--<li :class="['slider-li', isCurrent(item) ? 'active-li' : '']"
+                v-for="item in list"
+                :key="item.path"
+                @click="goToPath(item.path)"
+                v-if="role <= item.role">
+                {{item.label}}
+            </li>-->
         </ul>
     </section>
 </template>
@@ -51,6 +59,9 @@
         methods: {
             isCurrent(item) {
                 return this.$route.path === item.path || this.$route.meta.parentIndex === item.index
+            },
+            goToPath(path) {
+                this.$router.push(path)
             }
         }
     }
